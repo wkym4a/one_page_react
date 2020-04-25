@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head><title>Sample</title></head>
+  <body>
+    <h1>Index</h1>
+    <div id="stage"></div>
+    
+    
+    <script type="module">
+    import {MyObj} from './A11.js';
+    
+    
+    let ob = new MyObj(255, 200, 100);
+    document.getElementById("stage").innerHTML = ob.printData();
+    </script>
+  </body>
+</html>
